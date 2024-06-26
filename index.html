@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bootstrap Design</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/all.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header id="header">
+            <nav
+                class="navbar navbar-expand-lg bg-body-tertiary p-0 sticky-top"
+            >
+                <div class="container-fluid gx-1">
+                    <a class="navbar-brand px-3" href="#"
+                        ><i class="fa-solid fa-house-chimney"></i> Logo</a
+                    >
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link px-lg-3" href="#">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-lg-3" href="#">Work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-lg-3" href="#">Price</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-lg-3" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link px-lg-3 dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >link</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >link</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >link</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item search-icon-cont">
+                                <a class="nav-link search-icon" href="#"
+                                    ><i class="fa-solid fa-magnifying-glass"></i
+                                ></a>
+                            </li>
+                            <li class="nav-item search">
+                                <a href="#" class="nav-link">
+                                    <span>Search</span></a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="landscape">
+            <button
+                type="button"
+                class="btn btn-dark btn-model"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+            >
+                LEARN W3.CSS
+            </button>
+            <!-- Modal -->
+            <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">
+                                Oh snap! We just showed you a modal..
+                            </h1>
+                            <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="modal-design">Because we can</p>
+                            <hr />
+                            <p>Cool huh? Ok, enough teasing around..</p>
+                            <p>
+                                Go to our
+                                <a
+                                    href="https://www.w3schools.com/w3css/default.asp"
+                                    >W3.CSS Tutorial</a
+                                >
+                                to learn more!
+                            </p>
+                            <hr />
+                            <p class="modal-design">Modal footer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="our-team">
+            <div class="container">
+                <div class="text-center display-5">OUR TEAM</div>
+                <p class="text-center lead">Meet the team - our office rats:</p>
+                <div class="row">
+                    <div class="col-md-3 text-center">
+                        <img
+                            class="rounded-circle w-50 mb-2"
+                            src="media/man.jpg"
+                        />
+                        <h5>Johnny Walker</h5>
+                        <p class="lead">Web Designer</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img
+                            class="rounded-circle w-50 mb-2"
+                            src="media/man.jpg"
+                        />
+                        <h5>Rebecca Flex</h5>
+                        <p class="lead">Support</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img
+                            class="rounded-circle w-50 mb-2"
+                            src="media/man.jpg"
+                        />
+                        <h5>Jan Ringo</h5>
+                        <p class="lead">Boss man</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img
+                            class="rounded-circle w-50 mb-2"
+                            src="media/man.jpg"
+                        />
+                        <h5>Kai Ringo</h5>
+                        <p class="lead">Fixer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="our-work bg-dark text-white pt-5 pb-5 mt-3 mb-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h3>Our Work</h3>
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse cillum dolore
+                            eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img
+                                src="media/ourWork1.jpg"
+                                class="card-img-top"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Customer 1</h5>
+                                <p class="card-text">Trade</p>
+                                <p class="card-text">Blablabla</p>
+                                <p class="card-text">Blablabla</p>
+                                <p class="card-text">Blablabla</p>
+                                <p class="card-text">Blablabla</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img
+                                src="media/ourWork2.jpg"
+                                class="card-img-top"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Customer 2</h5>
+                                <p class="card-text">Trade</p>
+                                <p class="card-text">Blablabla</p>
+                                <p class="card-text">Blablabla</p>
+                                <p class="card-text">Blablabla</p>
+                                <p class="card-text">Blablabla</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img
+                                src="media/ourWork3.jpg"
+                                class="card-img-top"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Customer 3</h5>
+                                <p class="card-text">Trade</p>
+                                <p class="card-text">Blablabla</p>
+                                <p class="card-text">Blablabla</p>
+                                <p class="card-text">Blablabla</p>
+                                <p class="card-text">Blablabla</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="openCanves"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample"
+                    aria-controls="offcanvasExample"
+                >
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+
+                <div
+                    class="offcanvas offcanvas-start"
+                    tabindex="-1"
+                    id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel"
+                >
+                    <div
+                        class="offcanvas-header close-canves"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"
+                    >
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                            <div>Close <i class="fa-solid fa-x"></i></div>
+                        </h5>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul>
+                            <li><a href="#">Link 1</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
+                            <li><a href="#">Link 4</a></li>
+                            <li><a href="#">Link 5</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pricing">
+            <div class="container-fluid">
+                <div class="text-center mb-4">
+                    <div class="fs-2">PRICING</div>
+                    <div class="fs-6">
+                        Choose a pricing plan that fits your needs.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-2">
+                        <div class="card text-center">
+                            <div
+                                class="card-header p-4 bg-dark text-white display-6"
+                            >
+                                Basic
+                            </div>
+                            <div class="card-body fs-3 p-0">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <span class="fw-bold">10GB </span
+                                        >Storage
+                                    </li>
+                                    <li class="list-group-item">
+                                        <span class="fw-bold">10 </span> Emails
+                                    </li>
+                                    <li class="list-group-item">
+                                        <span class="fw-bold">10</span> Domains
+                                    </li>
+                                    <li class="list-group-item">
+                                        <span class="fw-bold">Endless </span
+                                        >Support
+                                    </li>
+                                    <li class="list-group-item p-3">
+                                        <div>
+                                            <i
+                                                class="fa-solid fa-dollar-sign"
+                                            ></i>
+                                            10
+                                        </div>
+                                        <p class="lead">per month</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div
+                                class="card-footer text-body-secondary bg-secondary-subtle p-4"
+                            >
+                                <button
+                                    class="btn btn-success p-2 hover-overlay"
+                                >
+                                    <i class="fa-solid fa-check"></i> Sign Up
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <div class="card text-center">
+                            <div
+                                class="card-header p-4 bg-secondary text-white display-6"
+                            >
+                                Pro
+                            </div>
+                            <div class="card-body fs-3 p-0">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <span class="fw-bold">25GB </span
+                                        >Storage
+                                    </li>
+                                    <li class="list-group-item">
+                                        <span class="fw-bold">25 </span> Emails
+                                    </li>
+                                    <li class="list-group-item">
+                                        <span class="fw-bold">25</span> Domains
+                                    </li>
+                                    <li class="list-group-item">
+                                        <span class="fw-bold">Endless </span
+                                        >Support
+                                    </li>
+                                    <li class="list-group-item p-3">
+                                        <div>
+                                            <i
+                                                class="fa-solid fa-dollar-sign"
+                                            ></i>
+                                            25
+                                        </div>
+                                        <p class="lead">per month</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div
+                                class="card-footer text-body-secondary bg-secondary-subtle p-4"
+                            >
+                                <button
+                                    class="btn btn-success p-2 hover-overlay"
+                                >
+                                    <i class="fa-solid fa-check"></i> Sign Up
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <div class="card text-center">
+                            <div
+                                class="card-header p-4 bg-dark text-white display-6"
+                            >
+                                Premium
+                            </div>
+                            <div class="card-body fs-3 p-0">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <span class="fw-bold">50GB </span
+                                        >Storage
+                                    </li>
+                                    <li class="list-group-item">
+                                        <span class="fw-bold">50 </span> Emails
+                                    </li>
+                                    <li class="list-group-item">
+                                        <span class="fw-bold">50</span> Domains
+                                    </li>
+                                    <li class="list-group-item">
+                                        <span class="fw-bold">Endless </span
+                                        >Support
+                                    </li>
+                                    <li class="list-group-item p-3">
+                                        <div>
+                                            <i
+                                                class="fa-solid fa-dollar-sign"
+                                            ></i>
+                                            50
+                                        </div>
+                                        <p class="lead">per month</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div
+                                class="card-footer text-body-secondary bg-secondary-subtle p-4"
+                            >
+                                <button
+                                    class="btn btn-success p-2 hover-overlay"
+                                >
+                                    <i class="fa-solid fa-check"></i> Sign Up
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-us bg-secondary-subtle pt-5 pb-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Contact Us</h3>
+                        <p class="fs-4">Address</p>
+                        <p class="fs-5">
+                            Swing by for a cup of coffee, or whatever.
+                        </p>
+                        <p class="fs-5">
+                            <span
+                                ><i class="fa-solid fa-location-dot"></i
+                            ></span>
+                            Chicago, US
+                        </p>
+                        <p class="fs-5">
+                            <span><i class="fa-solid fa-phone"></i></span> +00
+                            1515151515
+                        </p>
+                        <p class="fs-5">
+                            <span><i class="fa-regular fa-envelope"></i></span>
+                            test@test.com
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <form class="row g-3 p-3 bg-white">
+                            <div class="col-12">
+                                <label for="name" class="form-label"
+                                    >Name</label
+                                >
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="name"
+                                />
+                            </div>
+                            <div class="col-12">
+                                <label for="email" class="form-label"
+                                    >Email</label
+                                >
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="email"
+                                />
+                            </div>
+                            <div class="col-12">
+                                <label for="mesaage" class="form-label"
+                                    >Message</label
+                                >
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="mesaage"
+                                />
+                            </div>
+                            <div class="col-6">
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        id="gridCheck"
+                                        checked
+                                    />
+                                    <label
+                                        class="form-check-label"
+                                        for="gridCheck"
+                                    >
+                                        I Like it!
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-6 text-end">
+                                <button type="submit" class="btn btn-dark">
+                                    Send
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="map"></section>
+        <footer class="bg-dark text-white text-center p-5">
+            <div class="fs-3">Follow Us</div>
+            <div class="social">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <div class="fs-5">
+                Powered by
+                <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a>
+            </div>
+            <div class="arrow">
+                <a href="#header"
+                    ><i class="fa-solid fa-circle-arrow-up"></i
+                ></a>
+            </div>
+        </footer>
+        <script src="js/bootstrap.bundle.js"></script>
+        <script src="js/all.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

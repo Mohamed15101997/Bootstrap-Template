@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Start NavBar */
+.search {
+    display: none;
+}
+@media (max-width: 767px) {
+    .search {
+        display: block;
+    }
+    .search-icon-cont {
+        display: none;
+    }
+}
+.navbar {
+    background-color: black !important;
+    color: white;
+}
+.navbar .navbar-brand {
+    color: white;
+    background-color: #009688;
+}
+.navbar .nav-link {
+    color: white;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    background-color: white;
+    color: black;
+}
+.navbar .navbar-brand:hover {
+    background-color: #ddd;
+    color: black;
+}
+.navbar .search-icon:hover {
+    background-color: #009688;
+    color: white;
+}
+.fa-bars {
+    background-color: black;
+    color: white;
+}
+/* End Navbar */
+/* Start Landscape */
+.landscape {
+    height: 100vh;
+    background-image: url(../media/landscape.jpg);
+    background-size: cover;
+    position: relative;
+}
+.landscape .btn-model {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    padding: 10px;
+    font-size: 25px;
+}
+.landscape .btn-model:hover {
+    background-color: #009688;
+}
+.modal-content .modal-header {
+    width: 100%;
+    background-color: #009688;
+}
+.modal-content .modal-body p a {
+    color: #009688;
+}
+.modal-design {
+    background-color: #009688;
+}
+/* End Landscape */
+/* Start Our Team Section */
+.our-team {
+    margin: 20px 0;
+}
+.our-team .row img:hover {
+    opacity: 0.4;
+}
+/* End Our Team Section */
+/* Start Our Work Section */
+.our-work {
+    position: relative;
+}
+.our-work .openCanves {
+    position: absolute;
+    right: 25px;
+    bottom: -25px;
+    background-color: #009688;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    font-size: 20px;
+    border: 3px solid #009688;
+    border-radius: 50%;
+}
+.our-work .close-canves {
+    color: #009688;
+    margin-bottom: 30px;
+}
+.our-work .close-canves div {
+    font-size: 35px !important;
+    font-weight: bold !important;
+    cursor: pointer;
+}
+.our-work .close-canves:hover {
+    background-color: #ddd;
+    color: black;
+}
+.our-work .offcanvas {
+    width: 250px !important;
+}
+.offcanvas-body ul {
+    padding-left: 0;
+}
+.offcanvas-body ul li {
+    list-style: none;
+    padding: 0 !important;
+}
+.offcanvas-body ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+.offcanvas-body ul li:hover {
+    background-color: #ddd;
+}
+/* End Our Work Section */
+/* Start Pricing  */
+.pricing {
+    margin: 100px 0;
+}
+.pricing .card:hover {
+    box-shadow: 0 2px 15px rgb(0 0 0/10%);
+}
+.pricing .card .btn:hover {
+    background-color: #9e9e9e;
+}
+/* End Pricing  */
+/* Start Contact US  */
+.contact-us div h3 {
+    position: relative;
+}
+.contact-us div h3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 138px;
+    height: 5px;
+    background-color: #009688;
+}
+.contact-us p span {
+    color: #009688;
+}
+/* End Contact US  */
+/* Start Map  */
+.map {
+    height: 150vh;
+    background-image: url(../media/map.jpg);
+    background-size: cover;
+}
+/* End Map  */
+/* Start Footer  */
+footer {
+    position: relative;
+}
+footer div a {
+    color: white;
+}
+footer .social .svg-inline--fa {
+    background-color: #009688;
+    padding: 15px;
+    margin-right: 5px;
+}
+footer .social .svg-inline--fa:hover {
+    background-color: #ddd;
+    color: black;
+}
+footer .arrow {
+    position: absolute;
+    top: 105px;
+    right: 90px;
+}
+footer .arrow .svg-inline--fa {
+    font-size: 25px;
+    cursor: pointer;
+}
+footer .arrow .svg-inline--fa:hover {
+    background-color: #009688;
+    padding: 15px;
+}
+
+/* End Footer  */
